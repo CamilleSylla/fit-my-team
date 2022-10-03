@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_team_games",
+  "info": {
+    "displayName": "Game",
+    "icon": "people-carry"
+  },
+  "options": {},
+  "attributes": {
+    "This_club_score": {
+      "type": "integer",
+      "required": true,
+      "default": 0
+    },
+    "IsAway": {
+      "type": "boolean",
+      "required": true
+    },
+    "Opponent": {
+      "type": "string",
+      "required": true
+    },
+    "Opponent_score": {
+      "type": "integer",
+      "default": 0,
+      "required": true
+    },
+    "Game_date": {
+      "type": "datetime",
+      "required": true
+    }
+  }
+}
