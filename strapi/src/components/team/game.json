@@ -2,7 +2,8 @@
   "collectionName": "components_team_games",
   "info": {
     "displayName": "Game",
-    "icon": "people-carry"
+    "icon": "people-carry",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -27,6 +28,14 @@
     "Game_date": {
       "type": "datetime",
       "required": true
+    },
+    "OpponentTeamLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

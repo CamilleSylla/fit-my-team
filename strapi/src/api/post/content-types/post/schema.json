@@ -4,7 +4,8 @@
   "info": {
     "singularName": "post",
     "pluralName": "posts",
-    "displayName": "Posts"
+    "displayName": "Posts",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -50,6 +51,19 @@
         }
       },
       "type": "richtext",
+      "required": true
+    },
+    "Cover": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "required": true
     }
   }
