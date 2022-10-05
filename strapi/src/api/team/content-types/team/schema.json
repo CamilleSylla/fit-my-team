@@ -57,6 +57,16 @@
         }
       },
       "component": "team.game"
+    },
+    "Slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "uid",
+      "targetField": "Name",
+      "required": true
     }
   }
 }

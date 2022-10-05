@@ -96,6 +96,15 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::position.position"
+    },
+    "Nationality": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": false
     }
   }
 }
