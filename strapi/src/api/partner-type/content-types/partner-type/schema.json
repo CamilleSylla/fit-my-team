@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "partner_types",
+  "info": {
+    "singularName": "partner-type",
+    "pluralName": "partner-types",
+    "displayName": "Partner Types"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Name": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    }
+  }
+}

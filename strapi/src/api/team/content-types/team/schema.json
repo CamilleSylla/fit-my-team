@@ -45,8 +45,9 @@
     },
     "Players": {
       "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::player.player"
+      "relation": "manyToMany",
+      "target": "api::player.player",
+      "mappedBy": "Teams"
     },
     "Game": {
       "type": "component",
