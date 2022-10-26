@@ -14,6 +14,7 @@ import HomePage from '../HomePage';
 import { Typography, Box } from "@strapi/design-system";
 import Navigation from '../../components/Nav/Navigation';
 import ProductListPage from '../Product/List';
+import CreatePage from '../Create';
 
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
       <Switch>
         <Route path={`/plugins/${pluginId}`} component={HomePage} exact />
         <Route path={`/plugins/${pluginId}/product/list`} component={ProductListPage} exact />
+        <Route path={`/plugins/${pluginId}/product/create`} component={CreatePage} exact />
         <Route component={NotFound} />
       </Switch>
     </div>

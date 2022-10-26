@@ -8,4 +8,13 @@ module.exports = [
       auth: false
     },
   },
+  {
+    method: 'POST',
+    path: '/product/create',
+    handler: 'stripe.createProduct',
+    config: {
+      policies: [],
+      auth: false
+    },
+  },
 ];
