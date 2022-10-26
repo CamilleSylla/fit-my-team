@@ -13,7 +13,6 @@ module.exports = {
         })
         .then((res) => {
           return res?.data?.reduce(async (acc, product) => {
-            // console.log(acc);
             const price = await stripe.prices.retrieve(product.default_price);
              (await acc).push({ ...product, price: price.unit_amount /100, currency : price.currency })
              return acc
