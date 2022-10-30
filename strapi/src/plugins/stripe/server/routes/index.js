@@ -17,4 +17,13 @@ module.exports = [
       auth: false
     },
   },
+  {
+    method: 'POST',
+    path: '/product/delete',
+    handler: 'stripe.deleteProduct',
+    config: {
+      policies: [],
+      auth: false
+    },
+  },
 ];
